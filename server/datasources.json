@@ -1,0 +1,11 @@
+{
+  "db": {
+    "host": "aa19ge9hlf39fqm.cg7thqibotkt.ap-northeast-1.rds.amazonaws.com",
+    "port": "3306",
+    "database": "third-party-api-server",
+    "username": "ebroot",
+    "password": "lib217217",
+    "name": "db",
+    "connector": "mysql"
+  }
+}

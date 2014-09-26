@@ -1,0 +1,27 @@
+{
+  "name": "user_sms",
+  "plural": "user_sms",
+  "base": "PersistedModel",
+  "properties": {
+    "mobile": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "number"
+    },
+    "tpl_value": {
+      "type": "string"
+    },
+    "failed_attempts": {
+      "type": "number"
+    },
+    "sid": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
