@@ -14,7 +14,7 @@ module.exports = function(Push) {
 	  	var JPush = require("../../node_modules/jpush-sdk/index.js");
 		var client = JPush.buildClient('b89976da389a244be40e0d55', 'c639cc75123cc4916b5b902d');
 		client.push().setPlatform('ios', 'android')
-		    .setAudience(JPush.registration_id(data.supervisor_registration_id))
+		    .setAudience(JPush.registration_id(data.push_id))
 		    .setNotification('overbooking', JPush.ios('有客户下单了,快看看吧', 'default', parseInt(data.badge)), JPush.android('有客户下单了, 快看看吧', '有单啦', 1, {"badge": data.badge}))
 		    .setMessage('有客户下单了,快看看吧')
 		    .setOptions(null, 60, null, true)
