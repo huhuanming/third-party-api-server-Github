@@ -27,5 +27,9 @@
   "user_sms": {
     "dataSource": "db",
     "public": true
+  },
+  "push": {
+    "dataSource": "db",
+    "public": true
   }
 }

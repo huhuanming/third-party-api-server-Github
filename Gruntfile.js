@@ -4,9 +4,9 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     copy: {
       build: {
-        cwd: '../third-party-api-server-Github/',
+        cwd: '../third-party-api-server',
         src: ['**/*'],
-        dest: '../third-party-api-server'
+        dest: '../third-party-api-server-Github/'
       },
     },
   });
